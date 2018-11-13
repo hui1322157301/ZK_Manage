@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name></display-name>
+  <welcome-file-list>
+        <welcome-file>login.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginValidateServlet</servlet-name>
+    <servlet-class>zk_manage.servlet.LoginValidateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisteValidateServlet</servlet-name>
+    <servlet-class>zk_manage.servlet.RegisteValidateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RevisePwdServlet</servlet-name>
+    <servlet-class>zk_manage.servlet.RevisePwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExitServlet</servlet-name>
+    <servlet-class>zk_manage.servlet.ExitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SignServlet</servlet-name>
+    <servlet-class>zk_manage.servlet.SignServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LateNum</servlet-name>
+    <servlet-class>zk_manage.servlet.LateNum</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RelayServlet</servlet-name>
+    <servlet-class>zk_manage.servlet.RelayServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LeaveServlet</servlet-name>
+    <servlet-class>zk_manage.servlet.LeaveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckServlet</servlet-name>
+    <servlet-class>zk_manage.servlet.CheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WorkSignServlet</servlet-name>
+    <servlet-class>zk_manage.servlet.WorkSignServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CandyServlet</servlet-name>
+    <servlet-class>zk_manage.servlet.CandyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BackstageWorkSignServlet</servlet-name>
+    <servlet-class>backstage.servlet.BackstageWorkSignServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BackstageCheckServlet</servlet-name>
+    <servlet-class>backstage.servlet.BackstageCheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BackstageCandyServlet</servlet-name>
+    <servlet-class>backstage.servlet.BackstageCandyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BackstageSetCandyServlet</servlet-name>
+    <servlet-class>backstage.servlet.BackstageSetCandyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateTableServlet</servlet-name>
+    <servlet-class>backstage.servlet.UpdateTableServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BackstageWorkServlet</servlet-name>
+    <servlet-class>backstage.servlet.BackstageWorkServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BackstageRelayServlet</servlet-name>
+    <servlet-class>backstage.servlet.BackstageRelayServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BackstageLeaveServlet</servlet-name>
+    <servlet-class>backstage.servlet.BackstageLeaveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BackstageLateServlet</servlet-name>
+    <servlet-class>backstage.servlet.BackstageLateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BackstageOverServlet</servlet-name>
+    <servlet-class>backstage.servlet.BackstageOverServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BackstageSetOverServlet</servlet-name>
+    <servlet-class>backstage.servlet.BackstageSetOverServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BackstageDeleteStudentServlet</servlet-name>
+    <servlet-class>backstage.servlet.BackstageDeleteStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BackstageRegisteCodeServlet</servlet-name>
+    <servlet-class>backstage.servlet.BackstageRegisteCodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BackstageSetServlet</servlet-name>
+    <servlet-class>backstage.servlet.BackstageSetServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BackstageDeleteIpServlet</servlet-name>
+    <servlet-class>backstage.servlet.BackstageDeleteIpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BackstageSetWorkTimeServlet</servlet-name>
+    <servlet-class>backstage.servlet.BackstageSetWorkTimeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BackstageShowStudentServlet</servlet-name>
+    <servlet-class>backstage.servlet.BackstageShowStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BackstageAddIpServlet</servlet-name>
+    <servlet-class>backstage.servlet.BackstageAddIpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginValidateServlet</servlet-name>
+    <url-pattern>/LoginValidateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisteValidateServlet</servlet-name>
+    <url-pattern>/RegisteValidateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RevisePwdServlet</servlet-name>
+    <url-pattern>/RevisePwdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExitServlet</servlet-name>
+    <url-pattern>/ExitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SignServlet</servlet-name>
+    <url-pattern>/SignServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LateNum</servlet-name>
+    <url-pattern>/LateNum</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RelayServlet</servlet-name>
+    <url-pattern>/RelayServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LeaveServlet</servlet-name>
+    <url-pattern>/LeaveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckServlet</servlet-name>
+    <url-pattern>/CheckServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WorkSignServlet</servlet-name>
+    <url-pattern>/WorkSignServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CandyServlet</servlet-name>
+    <url-pattern>/CandyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BackstageWorkSignServlet</servlet-name>
+    <url-pattern>/BackstageWorkSignServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BackstageCheckServlet</servlet-name>
+    <url-pattern>/BackstageCheckServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BackstageCandyServlet</servlet-name>
+    <url-pattern>/BackstageCandyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BackstageSetCandyServlet</servlet-name>
+    <url-pattern>/BackstageSetCandyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateTableServlet</servlet-name>
+    <url-pattern>/UpdateTableServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BackstageWorkServlet</servlet-name>
+    <url-pattern>/BackstageWorkServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BackstageRelayServlet</servlet-name>
+    <url-pattern>/BackstageRelayServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BackstageLeaveServlet</servlet-name>
+    <url-pattern>/BackstageLeaveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BackstageLateServlet</servlet-name>
+    <url-pattern>/BackstageLateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BackstageOverServlet</servlet-name>
+    <url-pattern>/BackstageOverServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BackstageSetOverServlet</servlet-name>
+    <url-pattern>/BackstageSetOverServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BackstageDeleteStudentServlet</servlet-name>
+    <url-pattern>/BackstageDeleteStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BackstageRegisteCodeServlet</servlet-name>
+    <url-pattern>/BackstageRegisteCodeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BackstageSetServlet</servlet-name>
+    <url-pattern>/BackstageSetServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BackstageDeleteIpServlet</servlet-name>
+    <url-pattern>/BackstageDeleteIpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BackstageSetWorkTimeServlet</servlet-name>
+    <url-pattern>/BackstageSetWorkTimeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BackstageShowStudentServlet</servlet-name>
+    <url-pattern>/BackstageShowStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BackstageAddIpServlet</servlet-name>
+    <url-pattern>/BackstageAddIpServlet</url-pattern>
+  </servlet-mapping>
+  <filter>
+    <filter-name>FrameFilter</filter-name>
+    <filter-class>zk_manage.filter.FrameFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>FrameFilter</filter-name>
+    <url-pattern>/frame/*</url-pattern>
+  </filter-mapping>
+    <filter>
+    <filter-name>BackstageFilter</filter-name>
+    <filter-class>zk_manage.filter.BackstageFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>BackstageFilter</filter-name>
+    <url-pattern>/backstage/*</url-pattern>
+  </filter-mapping>
+</web-app>

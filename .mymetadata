@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="ZK_Manage"
+  id="myeclipse.1539615981111"
+  context-root="/ZK_Manage"
+  j2ee-spec="6.0"
+  archive="ZK_Manage.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

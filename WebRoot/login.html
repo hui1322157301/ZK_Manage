@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+		<meta charset="utf-8">
+		<title>登录界面</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+	</head>
+	<body>
+		<div class="wrap login_wrap">
+			<div class="content">
+				<div class="logo"></div>
+				<div class="login_box">	
+					
+					<div class="login_form">
+						<div class="login_title">
+							登录
+						</div>
+						<form action="/ZK_Manage/LoginValidateServlet" method="post" id="login_form">
+							
+							<div class="form_text_ipt">
+								<input id="login_sid" name="login_sid" type="text" placeholder="学号">
+							</div>
+							<div class="ececk_warning"><span>学号不能为空</span></div>
+							<div class="form_text_ipt">
+								<input id="login_pwd" name="login_pwd" type="password" placeholder="密码">
+							</div>
+							<div class="ececk_warning"><span>密码不能为空</span></div>
+				
+							<div class="form_btn">
+								<button type="button" onclick="loginValidate()">立即登录</button>
+							</div>
+							<div class="form_reg_btn">
+								<span>还没有帐号？</span><a href="register.html">马上注册</a>
+							</div>
+						</form>
+						<br/><br/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script type="text/javascript" src="js/common.js" ></script>
+		<script type="text/javascript">
+			loginValidate = function (){
+				var login_form = document.getElementById("login_form");
+				var login_sid = document.getElementById("login_sid").value;
+				var login_pwd = document.getElementById("login_pwd").value;
+				if(login_sid == ""){
+					alert("请输入学号！");
+					return;
+				}
+				if(login_pwd == ""){
+					alert("请输入密码！");
+					return;
+				}
+				login_form.submit();
+			};	
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<title>注册界面</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		
+		
+</head>
+	<body>
+		<div class="wrap login_wrap">
+			<div class="content">
+				
+				<div class="logo"></div>
+				
+				<div class="login_box">	
+					
+					<div class="login_form">
+						<div class="login_title">
+							注册
+						</div>
+						<form action="/ZK_Manage/RegisteValidateServlet" method="post" id="registe_form">
+							
+							<div class="form_text_ipt">
+								<input id="registe_sid" name="registe_sid" type="text" placeholder="学号">
+							</div>
+							<div class="ececk_warning"><span>学号不能为空</span></div>
+
+							<div class="form_text_ipt">
+								<input id="registe_pwd" name="registe_pwd" type="password" placeholder="密码">
+							</div>
+							<div class="ececk_warning"><span>密码不能为空</span></div>
+
+							<div class="form_text_ipt">
+								<input id="registe_rpwd" name="registe_rpwd" type="password" placeholder="重复密码">
+							</div>
+							<div class="ececk_warning"><span>密码不能为空</span></div>
+
+							<div class="form_text_ipt">
+								<input id="registe_code" name="registe_code" type="text" placeholder="注册码">
+							</div>
+							<div class="ececk_warning"><span>注册码不能为空</span></div>
+
+							<div class="form_text_ipt">
+								<input id="registe_sname" name="registe_sname" type="text" placeholder="学生姓名">
+							</div>
+							<div class="ececk_warning"><span>姓名不能为空</span></div>
+
+							<div class="form_btn">
+								<button type="button" onclick="registeValidate()">立即注册</button>
+							</div>
+							<div class="form_reg_btn">
+								<span>已有帐号？</span><a href="login.html">马上登录</a>
+							</div>
+						</form>
+						<br/><br/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script type="text/javascript" src="js/common.js" ></script>
+		<script type="text/javascript">
+			registeValidate = function(){
+				var registe_form = document.getElementById("registe_form");
+				var registe_sid = document.getElementById("registe_sid").value;
+				var registe_pwd = document.getElementById("registe_pwd").value;
+				var registe_rpwd = document.getElementById("registe_rpwd").value;
+				var registe_sname = document.getElementById("registe_sname").value;
+				var registe_code = document.getElementById("registe_code").value;
+				if(registe_sid == ""){
+					alert("请输入学号！");
+					return;
+				}else{//正则验证
+					var reg = /^\d{8}$/;
+					if(!reg.test(registe_sid)){
+						alert("学号为8位数字！");
+						return;
+					}
+				}
+				
+				if(registe_pwd == ""){
+					alert("请输入密码！");
+					return;
+				}else{//正则验证
+					var reg = /^[a-z0-9]{5,20}$/i;
+					if(!reg.test(registe_pwd)){
+						alert("密码为5-20位字母或数字！");
+						return;
+					}
+				}
+				
+				if(registe_rpwd == ""){
+					alert("请确认密码！");
+					return;
+				}else{
+					if(registe_pwd != registe_rpwd){
+						alert("你两次输入的密码不相同！");
+						return;
+					}
+				}
+				
+				if(registe_code == ""){
+					alert("请输入注册码！");
+					return;
+				}
+				
+				if(registe_sname == ""){
+					alert("请输入你的姓名！");
+					return;
+				}
+				registe_form.submit();
+			};
+		</script>
+	</body>
+</html>
